@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290E485D179B89DB00246D83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290E485C179B89DB00246D83 /* UIKit.framework */; };
+		290E485F179B89DB00246D83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290E485E179B89DB00246D83 /* Foundation.framework */; };
+		290E4861179B89DB00246D83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 290E4860179B89DB00246D83 /* CoreGraphics.framework */; };
+		290E4867179B89DB00246D83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 290E4865179B89DB00246D83 /* InfoPlist.strings */; };
+		290E4869179B89DB00246D83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E4868179B89DB00246D83 /* main.m */; };
+		290E486D179B89DB00246D83 /* NHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E486C179B89DB00246D83 /* NHAppDelegate.m */; };
+		290E486F179B89DB00246D83 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 290E486E179B89DB00246D83 /* Default.png */; };
+		290E4871179B89DB00246D83 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 290E4870179B89DB00246D83 /* Default@2x.png */; };
+		290E4873179B89DB00246D83 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 290E4872179B89DB00246D83 /* Default-568h@2x.png */; };
+		290E487C179B8A3C00246D83 /* NHCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E487A179B8A3C00246D83 /* NHCollectionViewController.m */; };
+		290E487D179B8A3C00246D83 /* NHCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 290E487B179B8A3C00246D83 /* NHCollectionViewController.xib */; };
+		290E4881179B8A7F00246D83 /* NHAlignmentFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E4880179B8A7F00246D83 /* NHAlignmentFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		290E4859179B89DB00246D83 /* NHAlignmentFlowLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHAlignmentFlowLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		290E485C179B89DB00246D83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		290E485E179B89DB00246D83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		290E4860179B89DB00246D83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		290E4864179B89DB00246D83 /* NHAlignmentFlowLayoutDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NHAlignmentFlowLayoutDemo-Info.plist"; sourceTree = "<group>"; };
+		290E4866179B89DB00246D83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		290E4868179B89DB00246D83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		290E486A179B89DB00246D83 /* NHAlignmentFlowLayoutDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NHAlignmentFlowLayoutDemo-Prefix.pch"; sourceTree = "<group>"; };
+		290E486B179B89DB00246D83 /* NHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NHAppDelegate.h; sourceTree = "<group>"; };
+		290E486C179B89DB00246D83 /* NHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHAppDelegate.m; sourceTree = "<group>"; };
+		290E486E179B89DB00246D83 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		290E4870179B89DB00246D83 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		290E4872179B89DB00246D83 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		290E4879179B8A3C00246D83 /* NHCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCollectionViewController.h; sourceTree = "<group>"; };
+		290E487A179B8A3C00246D83 /* NHCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCollectionViewController.m; sourceTree = "<group>"; };
+		290E487B179B8A3C00246D83 /* NHCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NHCollectionViewController.xib; sourceTree = "<group>"; };
+		290E487F179B8A7F00246D83 /* NHAlignmentFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHAlignmentFlowLayout.h; sourceTree = "<group>"; };
+		290E4880179B8A7F00246D83 /* NHAlignmentFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHAlignmentFlowLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		290E4856179B89DB00246D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290E485D179B89DB00246D83 /* UIKit.framework in Frameworks */,
+				290E485F179B89DB00246D83 /* Foundation.framework in Frameworks */,
+				290E4861179B89DB00246D83 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		290E4850179B89DB00246D83 = {
+			isa = PBXGroup;
+			children = (
+				290E487E179B8A7F00246D83 /* NHAlignmentFlowLayout */,
+				290E4862179B89DB00246D83 /* NHAlignmentFlowLayoutDemo */,
+				290E485B179B89DB00246D83 /* Frameworks */,
+				290E485A179B89DB00246D83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		290E485A179B89DB00246D83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				290E4859179B89DB00246D83 /* NHAlignmentFlowLayoutDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		290E485B179B89DB00246D83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				290E485C179B89DB00246D83 /* UIKit.framework */,
+				290E485E179B89DB00246D83 /* Foundation.framework */,
+				290E4860179B89DB00246D83 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		290E4862179B89DB00246D83 /* NHAlignmentFlowLayoutDemo */ = {
+			isa = PBXGroup;
+			children = (
+				290E486B179B89DB00246D83 /* NHAppDelegate.h */,
+				290E486C179B89DB00246D83 /* NHAppDelegate.m */,
+				290E4879179B8A3C00246D83 /* NHCollectionViewController.h */,
+				290E487A179B8A3C00246D83 /* NHCollectionViewController.m */,
+				290E487B179B8A3C00246D83 /* NHCollectionViewController.xib */,
+				290E4863179B89DB00246D83 /* Supporting Files */,
+			);
+			path = NHAlignmentFlowLayoutDemo;
+			sourceTree = "<group>";
+		};
+		290E4863179B89DB00246D83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				290E4864179B89DB00246D83 /* NHAlignmentFlowLayoutDemo-Info.plist */,
+				290E4865179B89DB00246D83 /* InfoPlist.strings */,
+				290E4868179B89DB00246D83 /* main.m */,
+				290E486A179B89DB00246D83 /* NHAlignmentFlowLayoutDemo-Prefix.pch */,
+				290E486E179B89DB00246D83 /* Default.png */,
+				290E4870179B89DB00246D83 /* Default@2x.png */,
+				290E4872179B89DB00246D83 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		290E487E179B8A7F00246D83 /* NHAlignmentFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				290E487F179B8A7F00246D83 /* NHAlignmentFlowLayout.h */,
+				290E4880179B8A7F00246D83 /* NHAlignmentFlowLayout.m */,
+			);
+			path = NHAlignmentFlowLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		290E4858179B89DB00246D83 /* NHAlignmentFlowLayoutDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290E4876179B89DB00246D83 /* Build configuration list for PBXNativeTarget "NHAlignmentFlowLayoutDemo" */;
+			buildPhases = (
+				290E4855179B89DB00246D83 /* Sources */,
+				290E4856179B89DB00246D83 /* Frameworks */,
+				290E4857179B89DB00246D83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHAlignmentFlowLayoutDemo;
+			productName = NHAlignmentFlowLayoutDemo;
+			productReference = 290E4859179B89DB00246D83 /* NHAlignmentFlowLayoutDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		290E4851179B89DB00246D83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nils Hayat";
+			};
+			buildConfigurationList = 290E4854179B89DB00246D83 /* Build configuration list for PBXProject "NHAlignmentFlowLayoutDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 290E4850179B89DB00246D83;
+			productRefGroup = 290E485A179B89DB00246D83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				290E4858179B89DB00246D83 /* NHAlignmentFlowLayoutDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		290E4857179B89DB00246D83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290E4867179B89DB00246D83 /* InfoPlist.strings in Resources */,
+				290E486F179B89DB00246D83 /* Default.png in Resources */,
+				290E4871179B89DB00246D83 /* Default@2x.png in Resources */,
+				290E4873179B89DB00246D83 /* Default-568h@2x.png in Resources */,
+				290E487D179B8A3C00246D83 /* NHCollectionViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		290E4855179B89DB00246D83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290E4869179B89DB00246D83 /* main.m in Sources */,
+				290E486D179B89DB00246D83 /* NHAppDelegate.m in Sources */,
+				290E487C179B8A3C00246D83 /* NHCollectionViewController.m in Sources */,
+				290E4881179B8A7F00246D83 /* NHAlignmentFlowLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		290E4865179B89DB00246D83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				290E4866179B89DB00246D83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		290E4874179B89DB00246D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		290E4875179B89DB00246D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		290E4877179B89DB00246D83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NHAlignmentFlowLayoutDemo/NHAlignmentFlowLayoutDemo-Prefix.pch";
+				INFOPLIST_FILE = "NHAlignmentFlowLayoutDemo/NHAlignmentFlowLayoutDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		290E4878179B89DB00246D83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NHAlignmentFlowLayoutDemo/NHAlignmentFlowLayoutDemo-Prefix.pch";
+				INFOPLIST_FILE = "NHAlignmentFlowLayoutDemo/NHAlignmentFlowLayoutDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		290E4854179B89DB00246D83 /* Build configuration list for PBXProject "NHAlignmentFlowLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290E4874179B89DB00246D83 /* Debug */,
+				290E4875179B89DB00246D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290E4876179B89DB00246D83 /* Build configuration list for PBXNativeTarget "NHAlignmentFlowLayoutDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290E4877179B89DB00246D83 /* Debug */,
+				290E4878179B89DB00246D83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 290E4851179B89DB00246D83 /* Project object */;
+}
